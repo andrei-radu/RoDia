@@ -13,3 +13,10 @@ We thus believe that RoDia is a valuable resource that will stimulate research a
 The dataset is in the **data** directory. We released the **train.csv** and
 the **test.csv** for the dataset split. Moreover, we included gender and age statistics.
 
+### Download
+[Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) is required to correctly download the `wav` files from the **data** directory. After installing it, please run the following commands:
+```shell
+git clone https://github.com/codrut2/RoDia.git
+cd RoDia
+git lfs install && git lfs pull
+```
